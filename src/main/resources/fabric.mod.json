@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sound-out",
+  "version": "${version}",
+  "name": "Sound Out",
+  "description": "",
+  "authors": [
+    "soy_bottle"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sound-out/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "name.soy.soundout.client.SoundOutClient"
+    ]
+  },
+  "mixins": [
+    "sound-out.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.6"
+  }
+}

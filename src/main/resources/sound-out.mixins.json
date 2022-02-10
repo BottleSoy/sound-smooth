@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.4",
+  "package": "name.soy.soundout.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractSoundInstanceMixin",
+    "NetWorkMixin",
+    "SoundManagerAccessor",
+    "SoundScreenMixin",
+    "SoundSystemAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
